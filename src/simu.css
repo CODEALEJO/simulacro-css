@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-h1: white;              /*aqui creo mi paleta de colores*/
+}
+
+main{
+
+}
+
+.primerarticle{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+    margin: 0px 0px;
+    background-image: url(../public/img/Mis\ viajes\ \(4\).png);
+    color: var(--color-h1);
+    justify-content:center;
+    justify-content: space-between;  
+  }
+
+
+
+.contenedor{
+    margin: 0;
+    top: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+#santamarta1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+#antioquia{
+    width: 300px;
+    height: 300px;
+}
+
+#amazonas{
+    width: 300px;
+    height: 300px;
+}
+
+.lugares section h2{
+    background-color: black;
+    color: white;
+    opacity: .7;
+    font-size: 8pt;
+    padding: 18px;
+    position: relative;
+    top: -50px;
+}
