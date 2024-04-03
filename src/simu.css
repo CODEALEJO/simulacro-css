@@ -4,7 +4,8 @@
 }
 
 :root{
-    --color-h1: white;              /*aqui creo mi paleta de colores*/
+    --color-h1: white;  
+    --color-h2: 526DFF           /*aqui creo mi paleta de colores*/
 }
 
 main{
@@ -49,7 +50,7 @@ main{
     height: 300px;
 }
 
-.lugares section h2{
+.lugares{
     background-color: black;
     color: white;
     opacity: .7;
@@ -57,4 +58,40 @@ main{
     padding: 18px;
     position: relative;
     top: -50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px 0;                /*organizacion del footer*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer2{
+    display: flex;
+    align-items: center;                /* colocacion de ka redes sociales en el footer*/
+    flex-wrap: wrap;
+    padding: 80px 0px;
+    margin: 0px 0px;
+    color: var(--color-h1);
+    justify-content:center;
+    justify-content: space-between;  
+  }
+
+h2{
+    color: skyblue;             /* color de los titulos*/
+}
+
+#santander{
+    width: 300px;
+    height: 300px; 
+}
+
+#arauca{
+    width: 300px;
+    height: 300px;
 }

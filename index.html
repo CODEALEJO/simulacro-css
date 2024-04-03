@@ -62,24 +62,24 @@ fecha: 03/04/2024 -->
     </header>
     <main>
         <section class="contenedor">
-          <article>
+          <article class="lugares" >
             <img id="santamarta1" src="./public/img/santamarta.jpeg" alt="imagen santamarta 1">
             <h2>MI VIAJE POR MAGDALENA</h2>
           </article>  
-          <article>
+          <article class="lugares">
             <img id="antioquia" src="./public/img/antioquia.jpg" alt="imagen de antioquia">
             <h2>MI VIAJE POR ANTIOQUIA</h2>
           </article>
-          <article>
+          <article class="lugares">
             <img id="amazonas" src="./public/img/Amazonas.jpg" alt="imagen del Amazonas">
             <h2>MI VIAJE POR AMAZONAS</h2>
           </article>
-          <article>
-            <img src="./public/img/Santander.jpg" alt="imagen de santander">
-            <h2>MI VIAJE POR SANTANDER</h2>
+          <article class="lugares">
+            <img id="santander" src="./public/img/Santander.jpg" alt="imagen de santander">
+            <h2>MI VIAJE POR SANTANDER</h2> 
         </article>
-        <article>
-            <img src="./public/img/arauca2.jpg" alt="imagen de arauca 2">
+        <article class="lugares">
+            <img id="arauca" src="./public/img/arauca2.jpg" alt="imagen de arauca 2">
             <h2>MI VIAJE POR ARAUCA</h2>
         </article>
         </section>
@@ -143,6 +143,40 @@ fecha: 03/04/2024 -->
  
        
     </main>
-    <footer></footer>
+    <footer>
+        <p>inscribete en nuestro newletter</p>
+        <form action="#" method="post">
+            <input
+              type="email"
+              name="email"                                          
+              placeholder="Correo electrónico"              
+              required
+            />
+            <button type="submit">
+                <a href="./src/pages/listo.html">inscribirse</a>
+              </button>
+
+            <section>
+                <article class="footer2">
+                  <a href="https://www.facebook.com/?locale=es_LA">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.instagram.com/">           
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="https://twitter.com/?lang=es">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                  <a href="https://www.youtube.com/">
+                    <i class="bi bi-youtube"></i>
+                  </a>
+                  <a href="https://www.snapchat.com/">
+                    <i class="bi bi-snapchat"></i>
+                  </a>
+                  
+                </article>
+              </section>
+            
+    </footer>
   </body>
 </html>
