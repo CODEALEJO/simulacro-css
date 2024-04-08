@@ -3,7 +3,7 @@ clan: clan gates
 fecha: 03/04/2024 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,12 +35,14 @@ fecha: 03/04/2024 -->
     <title>simulacro-HTML-CSS</title>
   </head>
   <body>
-    <header>
+    <header class="primersection">
       <nav>
-        <section>
+        <section >
           <article class="primerarticle">
-            <img src="./public/img/logo.png" alt="log de la mnotaña" />     <!--pongo el fondo de mi nav-->
-            <h1>Colombia Trabel</h1>
+            <div class="logooo">
+              <img src="./public/img/logo.png" alt="log de la mnotaña" />     <!--pongo el fondo de mi nav-->
+              <h1>Colombia Trabel</h1>
+            </div>
             <a href="https://www.facebook.com/?locale=es_LA">
               <i class="bi bi-facebook"></i>
             </a>
@@ -62,86 +64,114 @@ fecha: 03/04/2024 -->
     </header>
     <main>
         <section class="contenedor">
-          <article class="lugares" >
-            <img id="santamarta1" src="./public/img/santamarta.jpeg" alt="imagen santamarta 1">
-            <h2>MI VIAJE POR MAGDALENA</h2>
-          </article>  
-          <article class="lugares">
-            <img id="antioquia" src="./public/img/antioquia.jpg" alt="imagen de antioquia">
-            <h2>MI VIAJE POR ANTIOQUIA</h2>
-          </article>
-          <article class="lugares">
-            <img id="amazonas" src="./public/img/Amazonas.jpg" alt="imagen del Amazonas">
-            <h2>MI VIAJE POR AMAZONAS</h2>
-          </article>
-          <article class="lugares">
-            <img id="santander" src="./public/img/Santander.jpg" alt="imagen de santander">
-            <h2>MI VIAJE POR SANTANDER</h2> 
-        </article>
-        <article class="lugares">
-            <img id="arauca" src="./public/img/arauca2.jpg" alt="imagen de arauca 2">
-            <h2>MI VIAJE POR ARAUCA</h2>
-        </article>
+          <div class="collage">
+           <div class="contenedorizq">
+            <div class="izqsuperior">
+              <article class="lugares" >
+                <img id="santamarta1" src="./public/img/santamarta.jpeg" width="450px" height="350px" alt="imagen santamarta 1">
+                <h2>MI VIAJE POR MAGDALENA</h2>
+              </article>  
+            </div>
+            <div class="izqinferior">
+              <article class="lugares">
+                <img id="antioquia" src="./public/img/antioquia.jpg" width="450px" height="200px"  alt="imagen de antioquia">
+                <h2>MI VIAJE POR ANTIOQUIA</h2>
+              </article>
+            </div>
+            
+           </div>
+           <div class="contenedordere">
+            <div class="contenedorsupdere">
+              <div>
+                <article class="lugares">
+                  <img id="amazonas" src="./public/img/Amazonas.jpg" width="220px" height="300px" alt="imagen del Amazonas">
+                  <h2>MI VIAJE POR AMAZONAS</h2>
+                </article>
+              </div>
+              <div>
+                <article class="lugares">
+                  <img id="santander" src="./public/img/Santander.jpg" width="220px" height="300px" alt="imagen de santander">
+                  <h2>MI VIAJE POR SANTANDER</h2> 
+              </article>
+              </div>
+              
+              </div>
+                      <div class="dereinferior">
+                        <article class="lugares">
+                          <h2 id="tituloimg">MI VIAJE POR ARAUCA</h2>
+                      </article>
+                      </div>
+              </div>
+          </div>
+
         </section>
-      <section>
-        <article>
-            <img src="" alt="">
-        </article>
-        <article>
+      <section  class="espacio">
+        <div class="espaciodiv">
+          <article>
             <img src="./public/img/santamarta2.jpg" alt="imagen de santamarta 2">
-            <h2>Snata Marta belleza del Caribe</h2>
+            <h2>Santa Marta belleza del Caribe</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nemo quae maxime alias aliquam ratione ullam eaque impedit at sint sequi nobis nisi maiores inventore harum, pariatur itaque molestiae in!</p>
-            <p>30.19.2020</p>
+            <div class="losdivv">
+              <p>30.19.2020</p>
+              <a href="#">leer más</a>
+            </div>
         </article>
+        <hr>
         <article>
             <img src="./public/img/edificios-en-ciudad_1280x720_xtrafondos.com.jpg" alt="imagen de bogota D.C">
             <h2>Bogota extensa capital</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus officia doloribus minima consequatur quae adipisci, qui quis odio blanditiis sunt, optio asperiores culpa quod dignissimos? A dolor similique quis quibusdam?</p>
-            <p>30.19.2020</p>
+            <div class="losdivv">
+              <p>30.19.2020</p>
+              <a href="#">leer más</a>
+            </div>
         </article>
+        <hr>
         <article>
             <img src="./public/img/arauca3.jpg" alt="imagen de arauca 3">
             <h2>Llano orientales</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores omnis quam sed. Sunt amet doloribus expedita aliquid. Quibusdam esse quae quis dolorum incidunt perferendis nam itaque consequatur magnam odio.</p>
-            <p>30.19.2020</p>
+            <div class="losdivv">
+              <p>30.19.2020</p>
+              <a href="#">leer más</a>
+            </div>
         </article>
+        <hr>
         <article>
             <img src="./public/img/bmanga.jpg" alt="imagen de bucaramanga">
             <h2>Bucaramanga ciudad bonita</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus animi quisquam accusantium, ipsam perferendis a asperiores aliquam iure mollitia, eum repellat. Sapiente iure numquam dignissimos placeat incidunt, sed sunt perspiciatis.</p>
-            <p><p>30.19.2020</p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda optio amet animi provident! Numquam nesciunt veniam corrupti, quisquam quos necessitatibus eos dolorum nulla id laborum vel, et dolore. Nemo?</p>
+          <div class="losdivv">
+            <p> 30.14.2024</p>
+            <a href="#">leer más</a>
+          </div>
         </article>
-      </section>
-
-      <section>
-        <article>
-            <img src="" alt="">
-        </article>
-        <article>
-            <img src="./public/img/anuncio3.JPG" alt="imagen de un gata- anuncio 3">
-        </article>
-        <article>
-            <h2>COMENRARIOS RECIENTES</h2>
-            <img src="./public/img/imagen1.jpeg" alt="imagen de los comentarios recientes 1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae ab iste voluptates atque nesciunt modi! Quibusdam, aliquam atque? Perspiciatis asperiores rerum neque ad pariatur minima qui modi! Libero, consequuntur.</p>
-        </article>
-        <article>
-            <img src="./public/img/imagen2.jpeg" alt="imagen de los comentarios recientes 2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam. Quae omnis amet culpa inventore alias, corrupti exercitationem qui quia voluptatem excepturi illo fuga, voluptas repudiandae porro rem necessitatibus optio.</p>
-        </article>
-        <article>
-            <img src="/public/img/imagen3.jpg" alt="imagen de los comentarios recientes 3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt nobis incidunt dolorum quis quod explicabo cumque officia corporis hic, ipsum neque, esse temporibus ab sequi sint earum nam. Quis, cupiditate?</p>
-        </article>
-      </section>
-
-      <section>
-        <article>
+        <hr>
+        </div>
+        
+        <aside class="contenedorimg">
+          <article>
+              <img src="./public/img/anuncio3.JPG" alt="imagen de un gata- anuncio 3">
+          </article>
+          <article>
+              <h2>COMENRARIOS RECIENTES</h2>
+              <img src="./public/img/imagen1.jpeg" alt="imagen de los comentarios recientes 1">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae ab iste voluptates atque nesciunt modi! Quibusdam, aliquam atque? Perspiciatis asperiores rerum neque ad pariatur minima qui modi! Libero, consequuntur.</p>
+          </article>
+          <article class="tamañofoto">
+              <img src="./public/img/imagen2.jpeg" alt="imagen de los comentarios recientes 2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam. Quae omnis amet culpa inventore alias, corrupti exercitationem qui quia voluptatem excepturi illo fuga, voluptas repudiandae porro rem necessitatibus optio.</p>
+          </article>
+          <article>
+              <img src="/public/img/imagen3.jpg" alt="imagen de los comentarios recientes 3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt nobis incidunt dolorum quis quod explicabo cumque officia corporis hic, ipsum neque, esse temporibus ab sequi sint earum nam. Quis, cupiditate?</p>
+          </article>
+          <article>
             <img src="/public/img/anuncio.JPG" alt="imagen de anuncios computadores">
         </article>
+        </aside>
       </section>
  
-       
     </main>
     <footer>
         <p>inscribete en nuestro newletter</p>
@@ -173,10 +203,8 @@ fecha: 03/04/2024 -->
                   <a href="https://www.snapchat.com/">
                     <i class="bi bi-snapchat"></i>
                   </a>
-                  
                 </article>
               </section>
-            
     </footer>
   </body>
 </html>
